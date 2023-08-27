@@ -9,18 +9,6 @@ body {
     box-sizing: border-box;
 }
 
-
-.contactFormBig {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /*z-index: 4;*/
-    background-color: var(--sheer-green);
-
-}
-
 .contactFormParent {
     position: absolute;
     color: var(--textdetailColor);
@@ -29,7 +17,10 @@ body {
     padding: .3em .3em .3em .9em;
     display: none;
     background: var(--backgroundColor);
-    border: 1px solid var(--forest);
+    border-left: 15px solid var(--forest);
+    border-right: 15px solid var(--forest);
+    border-top: 2rem solid var(--forest);
+    border-bottom: 9.5rem solid var(--forest);
     border-radius: 7px;
     z-index: 3;
     height: auto;
@@ -80,6 +71,7 @@ input {
 }
 
 .modalBtnSubmit {
+    position: relative;
     background: var(--dark-blue);
     color: var(--backgroundColor);
     letter-spacing: .2rem;
@@ -89,13 +81,17 @@ input {
     border: none;
     text-align: center;
     padding: .7em;
-    margin: 0 auto .7em auto;
-    width: 95%;
+    margin-bottom: .7em;
+    margin-left: 30%;
+    width: 35%;
     border-radius: 4px; 
 }
 
+.modalBtnSubmit:hover {
+    background: var(--brown);
+}
+
 @media (min-width: 600px) {
-   
    
 }
 @media (min-width: 1025px) {}

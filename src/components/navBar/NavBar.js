@@ -9,20 +9,6 @@ export default function NavBar() {
     const [parentComponent, setParentComponent] = useState("navBar")
     const [navBool, setNavBool] = useState(false)
 
-    // const handleClick = (event)=> {
-    //     event.preventDefault();
-    //     if (formBool) {      
-    //         setFormBool(false)
-    //         setFormClass("none")
-    //         window.scrollTo(0, 0);
-    //         } else {  
-    //         setFormBool(true)
-    //         setFormClass("inline-block")
-    //         setParentComponent("navBar")
-    //         window.scrollTo(0, 0);
-    //     }
-    // }
-
     const handleHamburgerClick = (event)=> {
         event.preventDefault();
         if (navBool) {
@@ -30,8 +16,7 @@ export default function NavBar() {
 
             } else {
             setNavBool(true)
-        }
-        
+        }   
     }
 
   return (
@@ -76,14 +61,6 @@ export default function NavBar() {
                         <li className="navLi"><p><a className="navLiAnchor" href="#listenSection" >listen</a></p></li>
                         <li className="navLi"><p><a className="navLiAnchor" href="#gallerySection" >gallery</a></p></li>
                         <li className="navLi"><p><a className="navLiAnchor" href="#followSection" >follow</a></p></li>
-
-                        {/* <button
-                        className="bookBtn"
-                        onClick={handleClick} 
-                    >
-                        BOOK / CONTACT
-                        
-                    </button> */}
 
                 </ul>
                     

@@ -73,10 +73,18 @@ body {
     .bookBtnSched {
         font-size: 15px;
     }
+
+    .bookBtn{
+        font-size: 22px;
+    }
     
 }
 @media (min-width: 1025px) {
     .bookBtnSched {
         font-size: 20px;
+    }
+
+    .bookBtn{
+        font-size: 32px;
     }
 }

@@ -78,7 +78,7 @@ const handleClick = (url)=> {
                 ''}  
 
               </div>
-                <p>© 2022 Kiley Jeanne | All Rights Reserved</p>
+                <p>© 2023 Michael Griffus | All Rights Reserved</p>
               </div>
    
         </section>
