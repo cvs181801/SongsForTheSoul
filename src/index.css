@@ -3,9 +3,10 @@
 :root {
   --textdetailColor: #000000;
   --grey: rgba(0, 0, 0, 0.709);
+  --med-grey: gray;
   --backgroundColor: white;
   --vanilla: #FFFAF3;
-  --feather-grey: #EFEBE9;
+  --feather-grey: #dbd6d4;
   --light-blue: #B2EBF2;
   --dark-blue: #0097A7;
   --dark-teal: #0097A7;
@@ -18,11 +19,26 @@
   --teal6:#015f69;
   --dark-teal-drop-1: rgba(4, 96, 97, 0.16);
   --dark-teal-drop-2: rgba(6, 150, 151, 0.16);
-  --sheer-green: rgba(1, 98, 5, 0.83);
   --forest: #016205;
+  --dark-forest: #013d03;
+  --fern1: #016b05;
+  --fern2: #027802; 
+  --fern3: #137513; 
+  --fern4: #117e11;
+  --fern5: #196c19;
+  --fern6: #206420;
+  --sheer-green: rgba(1, 98, 5, 0.83);
   --brown: #472B01;
+  --terracotta: rgb(141, 54, 19);
+  --sheer-terracotta: rgb(141, 54, 19, 0.936);
+  --sienna: #623f0b;
+  --sheer-sienna: rgba(45, 22, 1, 0.936);
+  --chocolate: #3e2601;
+  --sheer-chocolate: #3e2601bb;
   --brown-shadow: 3px 3px 20px #472B01, 3px 3px 20px #472B01, -3px -3px 20px #472B01, -3px -3px 20px #472B01,
   1px 1px 2px #472B01, 1px 1px 2px #472B01, -1px -1px 2px #472B01, -1px -1px 2px #472B01;
+  --green-shadow: 3px 3px 20px #016205, 3px 3px 20px #016205, -3px -3px 20px #016205, -3px -3px 20px #016205,
+  1px 1px 2px #016205, 1px 1px 2px #016205, -1px -1px 2px #016205, -1px -1px 2px #016205; 
   --ff-accent: 'Martel', serif;
   --ff-main1: 'Roboto Flex', sans-serif;
   --ff-main2: 'Roboto', sans-serif;

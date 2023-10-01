@@ -23,7 +23,7 @@ export default function Listen() {
 
     }
     catch(error){
-        console.log(error) //need better err handling
+        console.log(error) 
     }
 }
 
@@ -48,7 +48,7 @@ useEffect(()=>{
             >
               <p>
                 <br></br>
-                Stay tuned for more musical content coming your way soon!
+                {/* Stay tuned for more musical content coming your way soon! */}
                 <br></br>
                 <br></br>
               </p>

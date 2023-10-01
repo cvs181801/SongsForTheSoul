@@ -18,14 +18,14 @@ body {
 .bookBtn {
     background-image: radial-gradient(
         circle at 50% 50%, 
-        var(--dark-teal), 
-        var(--teal1), 
-        var(--teal2),
-        var(--teal3),
-        var(--teal4),
-        var(--teal5),
-        var(--teal6),
-        var(--deep-teal)
+        var(--dark-forest), 
+        var(--fern1), 
+        var(--fern2),
+        var(--fern3),
+        var(--fern4),
+        var(--fern5),
+        var(--fern6),
+        var(--forest)
     );
 
     background-size: 200% auto; 

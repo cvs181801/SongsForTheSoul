@@ -17,7 +17,7 @@ export default function Instagram() {
         </div>
         
 
-        <div
+        {/* <div
           className="instagramInnerContainerDiv"
         >
             <iframe 
@@ -29,7 +29,7 @@ export default function Instagram() {
             data-testid="instagramIframe"
             >
             </iframe>
-        </div>
+        </div> */}
 
       </section>
     </div>

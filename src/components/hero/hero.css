@@ -14,7 +14,7 @@ h1 {
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     text-align: center;
-    color: var(--dark-blue);
+    color: var(--forest);
     font-family: var(--ff-accent);
     background: var(--backgroundColor);
     
@@ -37,7 +37,7 @@ h1 {
 .imgDiv {
     width: 100vw;
     height: 17em;
-    background-color: var(--sheer-green);
+    background-color: var(--sheer-sienna);
     background-blend-mode: screen;
     background-size: 300%;
     background-position: 35% 35%;
@@ -54,7 +54,7 @@ h1 {
     font-size: .5rem;
     letter-spacing: .1rem;
     font-weight: 700;
-    text-shadow: var(--brown-shadow);
+    text-shadow: var(--green-shadow);
     color: var(--backgroundColor);
 }
 
